@@ -2,8 +2,8 @@
   <h2><%= @restaurant.name %></h2>
   <p><em><%= @restaurant.category.capitalize %> Cuisine</em></p>
   <p><%= Faker::Restaurant.description %></p>
-  <%# Need to add a rating %>
-  <p><strong>Rating:</strong></p>
+  <p><strong>Rating:</strong> ★★★★★</p>
+  <p><strong>Price range:</strong> ¥¥¥¥</p>
   <p><strong>Address:</strong> <%= @restaurant.address %></p>
   <p><strong>Phone number:</strong> <%= @restaurant.phone_number %></p>
   <%= link_to 'Leave a review', new_restaurant_review_path(@restaurant) %>

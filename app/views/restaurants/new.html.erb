@@ -1,6 +1,6 @@
 <div class="container">
   <h1>Add a new restaurant</h1>
-
+  <hr>
   <%= simple_form_for(@restaurant) do |f| %>
     <%= f.input :name %>
     <%= f.input :category %>
@@ -8,6 +8,6 @@
     <%= f.input :phone_number %>
     <%= f.submit 'Submit', class: 'btn btn-light' %>
   <% end %>
-
+  <hr>
   <%= link_to 'Back to Restaurants', restaurants_path %>
 </div>

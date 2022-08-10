@@ -1,2 +1,7 @@
-<h2><%= restaurant.name %></h2>
-<p><%= restaurant.category.capitalize %></p>
+<div class="card-product">
+  <img src="app/assets/images.restaurant.jpeg" />
+  <div class="card-product-infos">
+    <h2><%= link_to restaurant.name, restaurant_path(restaurant) %></h2>
+    <p><%= restaurant.category.capitalize %></p>
+  </div>
+</div>
