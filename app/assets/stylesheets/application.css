@@ -13,7 +13,3 @@
  *= require_tree .
  *= require_self
  */
-@import 'components/avatar';
-@import 'components/banner';
-@import 'components/cards';
-@import 'components/navbar';
